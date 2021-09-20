@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/dep-a" },
+    { "path": "packages/main" }
+  ]
+}

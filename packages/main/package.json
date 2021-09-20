@@ -1,0 +1,15 @@
+{
+  "name": "@monorepo-issue/main",
+  "version": "1.0.0",
+  "description": "Main",
+  "main": "dist/main.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "@monorepo-issue/dep-a": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.4.3"
+  }
+}

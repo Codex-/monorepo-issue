@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-issue",
+  "version": "1.0.0",
+  "description": "Recreation of import issues faced in monorepo config",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "build:watch": "npm run build -- --watch",
+    "clean": "rimraf packages/**/*/lib **/*/*.tsbuildinfo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codex-/monorepo-issue.git"
+  },
+  "author": "Alex Miller <codex.nz@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/Codex-/monorepo-issue#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

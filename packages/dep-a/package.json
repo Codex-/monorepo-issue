@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo-issue/dep-a",
+  "version": "1.0.0",
+  "description": "Some deps",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.4.3"
+  }
+}
